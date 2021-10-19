@@ -14,8 +14,8 @@ const Header = () => {
                     <Navbar.Collapse className="me-auto">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
-                        <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
-                        {user.email && <span style={{ color: 'black' }}>Hello {user.displayName} </span>}
+                        <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                        {user.displayName && <span style={{ color: 'black' }}>Hello {user.displayName} </span>}
                         {
                             user.email ?
                                 <button onClick={logOut}>log out</button>

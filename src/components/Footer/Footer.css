@@ -1,0 +1,21 @@
+.box{
+    border-top: 2px  solid darkslategrey;
+    
+}
+.footer-item{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    color: darkslategrey;
+}
+.footer-title{
+    font-size: 36px;
+}
+.contacts{
+    margin: 10px;
+    padding: 10px;
+}
+ .ambulance img{
+     margin-left: 0px;
+ }
