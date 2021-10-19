@@ -25,13 +25,13 @@ const Details = () => {
     return (
         <div className="details-box">
             <img src={singleDetails?.img} alt="" />
-            <h2>{singleDetails?.name}</h2>
+            <h2 className="p-3">{singleDetails?.name}</h2>
             {/* <h2>Department of {singleDetails?.department}</h2> */}
 
             <div>
-                <h3>Overview</h3>
-                <p>{singleDetails?.description}</p>
-                <p>{singleDetails?.details}</p>
+                <h3 className="p-3" >Overview</h3>
+                <p className="p-3">{singleDetails?.description}</p>
+                <p className="details_text">{singleDetails?.details}</p>
             </div>
         </div>
     );
