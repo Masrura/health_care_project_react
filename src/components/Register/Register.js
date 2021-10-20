@@ -27,7 +27,12 @@ function App() {
     const handlePasswordChange = e => {
         setPassword(e.target.value)
     }
-
+    const handleGoogleLogin = () => {
+        signInWithGoogle()
+            .then(result => {
+                history.push('/home');
+            })
+    }
     const handleRegistration = e => {
         e.preventDefault();
         console.log(email, password);
@@ -82,7 +87,7 @@ function App() {
             <p>Aready Registered? <Link to="/login">Sign In</Link></p>
             <div>--------------------------------</div>
             <br /><br /><br />
-            <button onClick={signInWithGoogle}>Google Sign In</button>
+            <button onClick={handleGoogleLogin}>Google Sign In</button>
         </div>
     );
 }

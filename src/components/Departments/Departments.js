@@ -6,7 +6,7 @@ const Departments = () => {
     const [dept, setDept] = useDepartment();
     return (
         <div className="main">
-            <h2 style={{paddingTop:"3%"}}> Our Departments</h2>
+            <h2 className="animate__animated animate__bounce" style={{paddingTop:"3%"}}> Our Departments</h2>
             <div className="row dept-main">
                 {
                     dept.map(d =>

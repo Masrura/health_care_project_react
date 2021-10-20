@@ -9,4 +9,6 @@
 }
 .dept-box{
     height: 400px;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }

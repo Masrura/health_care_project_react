@@ -11,3 +11,14 @@
 .services h1{
     color: blue;
 }
+.list li{
+    list-style: none;
+}
+.animate-right{
+    animation: backInRight; 
+  animation-duration: 2s;
+}
+.animate-left{
+    animation: backInLeft; 
+  animation-duration: 2s;
+}

@@ -2,8 +2,8 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div style={{ paddingBottom: '3%' }} className="row">
-            <h1 style={{padding:'3%'}}> About Us</h1>
+        <div style={{ paddingBottom: '3%', backgroundImage: 'linear-gradient(to right, #ff9966, #ff5e62)' }} className="row">
+            <h1 style={{padding:'3%', color:'white'}}> About Us</h1>
             <div className="col-md-6">
                 <img src="https://dhakahealthcare.com/assets/images/about-us.jpg" alt="" />
             </div>

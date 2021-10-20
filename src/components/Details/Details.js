@@ -30,8 +30,8 @@ const Details = () => {
 
             <div>
                 <h3 className="p-3" >Overview</h3>
-                <p className="p-3">{singleDetails?.description}</p>
-                <p className="details_text">{singleDetails?.details}</p>
+                <p className="p-3"><u>Description: </u> {singleDetails?.description}</p>
+                <p className="details_text"> <u>More Details:</u> {singleDetails?.details}</p>
             </div>
         </div>
     );
