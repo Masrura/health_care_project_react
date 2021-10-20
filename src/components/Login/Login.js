@@ -45,23 +45,29 @@ const Login = () => {
             })
     }
     return (
-        <div>
-            <div className="loginDiv">
-                <h2>Login</h2>
-                <form className="loginForm">
-                    <input type="email" name="email" id="email" onBlur={handleEmailChange}placeholder="Your Email" required/>
-                    <br />
-                    <input type="password" name="password" id="password" onBlur={handlePasswordChange} placeholder="Your Password" required />
-                    <br />
-                    <button className="btn-regular" onClick={handleLogin}>LogIn</button>
-                    <br />
-                    <span>{ error }</span>
-                </form>
-                <p className="text">New to Stay Healty website? <Link to="/register">Create Account</Link></p>
-                <div>-------------------or---------------</div>
-                <button className="btn-regular"
-                    onClick={handleGoogleLogin}>Google Sign In</button>
+        <div className="row align-items-center">
+            <div className="col-md-5">
+                <img className="img-fluid" src="login.jpg" alt="" />
             </div>
+            <div className="col-md-7">
+                <div className="loginDiv">
+                    <h2>Login</h2>
+                    <form className="loginForm">
+                        <input type="email" name="email" id="email" onBlur={handleEmailChange} placeholder="Your Email" required />
+                        <br />
+                        <input type="password" name="password" id="password" onBlur={handlePasswordChange} placeholder="Your Password" required />
+                        <br />
+                        <button className="btn-regular" onClick={handleLogin}>LogIn</button>
+                        <br />
+                        <span>{error}</span>
+                    </form>
+                    <p className="text">New to Stay Healty website? <Link to="/register">Create Account</Link></p>
+                    <div>-------------------or---------------</div>
+                    <button className="btn-regular"
+                        onClick={handleGoogleLogin}>Google Sign In</button>
+                </div>
+            </div>
+            
         </div>
     );
 };

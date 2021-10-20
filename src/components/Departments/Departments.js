@@ -5,7 +5,7 @@ import './Departments.css'
 const Departments = () => {
     const [dept, setDept] = useDepartment();
     return (
-        <div>
+        <div className="main">
             <h2 style={{paddingTop:"3%"}}> Our Departments</h2>
             <div className="row dept-main">
                 {

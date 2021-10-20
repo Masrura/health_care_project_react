@@ -1,0 +1,8 @@
+.r-main{
+    border-top: 1px solid  cadetblue;
+    padding:3%;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+.review-row{
+    padding-top: 3%;
+}

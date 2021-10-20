@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="box" style={{ backgroundColor: '#810054' }}>
+        <div className="box" style={{ backgroundImage: 'linear-gradient(to right, #0f0c29, #302b63, #24243e)' }}>
             <div className="row">
                 <p className="footer-title" style={{ fontSize: '40px', color:'white', fontWeight: '500'}}>Stay Healthy</p>
             </div>
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <div className="col-md-5 ambulance">
                     <img src="https://dhakahealthcare.com/assets/images/feature/24-ambulance.jpg" alt="" />
-                    <p className="text-primary"> <strong> 24 Hours Ambulance </strong></p>
+                    <p className="text-light"> <strong> 24 Hours Ambulance </strong></p>
                 </div>
 
             </div>
